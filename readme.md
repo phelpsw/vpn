@@ -12,14 +12,10 @@ unzip /tmp/pia/openvpn.zip -d /home/$USER/vpn/
 
 cd /home/$USER/vpn/
 sudo openvpn US\ California.ovpn
+sudo ./on
 ```
 
 ## Disabling
 ```
 sudo iptables -F
-```
-
-## TODO
-```
-sudo bash vpn/on # causes write error
 ```
