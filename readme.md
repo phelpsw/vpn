@@ -12,10 +12,15 @@ unzip ~/vpn/openvpn.zip -d /home/$USER/vpn/
 
 cd /home/$USER/vpn/
 sudo openvpn US\ California.ovpn
-sudo ./on
+
 ```
 
 ## Disabling
 ```
 sudo iptables -F
+```
+
+## Enabling rules breaks routes for some reason:
+```
+sudo ./on
 ```
